@@ -2,8 +2,12 @@
 
 A Docker image based on [AlpineLinux] with [nodejs] pre-installed.
 
+The [latest version][version] of npm will be installed as well
+(using the shipped npm version)
+
 [AlpineLinux]: https://registry.hub.docker.com/u/alpinelinux/base/
 [nodejs]: http://alpinelinux.org/apk/main/x86_64/nodejs
+[version]: https://www.npmjs.org/package/npm
 
 ## ONBUILD
 
